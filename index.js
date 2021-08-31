@@ -24,7 +24,7 @@ Secure_RM(`${Self_Args[0]}/*`).then(()=>{
     I2rys.log("yellowish", "INFO", "SRF Debugger:", "Exiting...")
     process.exit()
 }).catch(()=>{
-    I2rys.log("yellowish", "CRITICAL", "SRF Debugger:", `Unable to remove ${Self_Args[0]} files due to invalid path/low permission.`)
+    I2rys.log("yellowish", "CRITICAL", "SRF Debugger:", `Unable to delete ${Self_Args[0]} files due to invalid path/low permission.`)
     I2rys.log("yellowish", "INFO", "SRF Debugger:", "Exiting...")
     process.exit()
 })
