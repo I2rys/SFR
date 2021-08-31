@@ -20,7 +20,7 @@ if(!Fs.existsSync(Self_Args[0])){
 }
 
 Secure_RM(`${Self_Args[0]}/*`).then(()=>{
-    I2rys.log("yellowish", "INFO", "SRF Debugger:", `${Self_Args[0]} files have been removed securely & safely.`)
+    I2rys.log("yellowish", "INFO", "SRF Debugger:", `${Self_Args[0]} files have been deleted permanently, securely & safely.`)
     I2rys.log("yellowish", "INFO", "SRF Debugger:", "Exiting...")
     process.exit()
 }).catch(()=>{
